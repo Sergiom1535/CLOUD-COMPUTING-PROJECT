@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+.header{
+    text-align: center;
+    border-style: solid;
+    background-color: blue;
+    border-color: orange;
+}
+.links {
+  overflow: hidden;
+  background-color: blue;
+  border-style: solid;
+  border-color: orange;
+  text-align: center;
+}
+
+.links a {
+  float: right;
+  display: block;
+  color:  black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.textarea {
+ 
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  word-wrap: break-word; 
+  word-break: break-all;
+}
+.forum_form.name_input
+{
+  margin: left;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+
+}
+._search{
+    margin: left;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+.fakedata{
+  width: 950px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
